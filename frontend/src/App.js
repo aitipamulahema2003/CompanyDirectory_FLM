@@ -6,7 +6,7 @@ function App() {
   const [companies, setCompanies] = useState([]);
   const [filtered, setFiltered] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/api/companies")
+    fetch("https://your-backend-url.onrender.com/api/companies")
       .then(res => res.json())
       .then(data => { setCompanies(data); setFiltered(data); });
   }, []);
