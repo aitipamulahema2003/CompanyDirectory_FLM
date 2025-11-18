@@ -1,0 +1,12 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+}
+.container { width: 85%; margin: 50px auto; }
+h2 { text-align: center; font-size: 32px; }
+.filters { display: flex; gap: 15px; margin-bottom: 25px; flex-wrap: wrap; }
+.filters input, .filters select {
+  padding: 12px; border-radius: 12px; border: none;
+  background: rgba(255,255,255,0.8); box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.company-table { width: 100%; border-collapse: collapse; background: white; }

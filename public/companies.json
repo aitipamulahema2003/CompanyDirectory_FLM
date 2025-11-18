@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Aurora Labs", "location": "Bengaluru", "industry": "AI", "employees": 120, "founded": 2018 },
+  { "id": 2, "name": "BlueWave Solutions", "location": "Hyderabad", "industry": "Fintech", "employees": 60, "founded": 2020 }
+]
